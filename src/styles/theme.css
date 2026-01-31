@@ -113,10 +113,11 @@ button{ font-family: inherit; }
 
 .grid2{
   display:grid;
-  grid-template-columns: 1.2fr .8fr;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 22px;
   margin-top: 34px;
 }
+
 
 @media (max-width: 900px){
   .grid2{ grid-template-columns: 1fr; }

@@ -120,7 +120,7 @@ export default function App() {
           title="Experience"
           subtitle="Roles that prove I can work with humans and deadlines."
         >
-          <div className="grid2" style={{ gridTemplateColumns: "1fr 1fr" }}>
+          <div className="grid2">
             {profile.experience.map((e) => (
               <ExperienceCard key={e.title + e.org} item={e} />
             ))}
@@ -155,7 +155,7 @@ export default function App() {
           title="Certifications"
           subtitle="Training completed through my Lead Representative role."
         >
-          <div className="grid2" style={{ gridTemplateColumns: "1fr 1fr" }}>
+          <div className="grid2">
             {profile.certifications.map((c) => (
               <div className="card" key={c.title}>
                 <div className="cardTitle">
@@ -174,7 +174,7 @@ export default function App() {
           title="Projects"
           subtitle="Selected work across full‑stack, databases, networking, and security."
         >
-          <div className="grid2" style={{ gridTemplateColumns: "1fr 1fr" }}>
+          <div className="grid2">
             {profile.projects.map((p) => (
               <ProjectCard key={p.name} item={p} />
             ))}
