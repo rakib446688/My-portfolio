@@ -3,7 +3,7 @@ import React from "react";
 export default function SkillGrid({ skills }) {
   const entries = Object.entries(skills || {});
   return (
-    <div className="grid2" style={{ gridTemplateColumns: "1fr 1fr" }}>
+    <div className="grid2" style={{ gridTemplateColumns: "1fr" }}>
       {entries.map(([group, items]) => (
         <div className="card" key={group}>
           <div className="cardTitle">
