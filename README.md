@@ -4,14 +4,14 @@ A recruiter-focused portfolio summarising my Computer Science projects across so
 
 
 ### 1) LinkedIn
-
-- `src/data/profile.js`  
-  - My LinkedIn: `https://www.linkedin.com/in/md-rakib-hasan-481a7726a/`  
+- My LinkedIn: [MD Rakib Hasan][linkedin]
 
 ### 2) My Portfolio
+- Live site: [My Portfolio][portfolio]
 
-- `index.html`
-  - Link to my Portfolio `https://rakib446688.github.io/My-portfolio/` 
+[linkedin]: https://www.linkedin.com/in/md-rakib-hasan-481a7726a/
+[portfolio]: https://rakib446688.github.io/My-portfolio/
+
 
 
 
